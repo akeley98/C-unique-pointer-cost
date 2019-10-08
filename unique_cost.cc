@@ -4,6 +4,8 @@ extern "C" {
 
 void bar(int* ptr) noexcept;
 
+// Baseline raw ptr version.
+    
 // Takes ownership
 void baz_raw(int* ptr) noexcept;
 
